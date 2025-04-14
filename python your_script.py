@@ -5,11 +5,11 @@ import smtplib
 from email.mime.text import MIMEText
 
 # CONFIGURATION
-EMAIL_FROM = 'your-email@example.com'
-EMAIL_TO = 'your-email@example.com'
+EMAIL_FROM = 'tejasusd@gmail.com'
+EMAIL_TO = 'tejasusd@gmail.com'
 SMTP_SERVER = 'smtp.sendgrid.net'
 SMTP_PORT = 587
-SMTP_USERNAME = 'apikey'  # for SendGrid
+SMTP_USERNAME = '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'  # for SendGrid
 SMTP_PASSWORD = 'your_sendgrid_api_key'
 CHECK_INTERVAL = 3600  # check every hour
 LAST_SEEN_FILE = 'last_seen.txt'
